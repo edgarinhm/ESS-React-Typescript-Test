@@ -1,0 +1,16 @@
+.table {
+  display: grid;
+  font-size: 0.5rem;
+}
+table thead {
+  border-color: orange;
+  background-color: orange;
+  text-transform: uppercase;
+}
+
+table tbody {
+  background-color: lightgray;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
